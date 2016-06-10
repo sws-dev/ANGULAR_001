@@ -12,6 +12,11 @@ table {
     padding: 0 0 15px 0;
     text-transform: uppercase; }
 
+a:hover, a:active {
+  opacity: 0.7;
+  text-decoration: none !important;
+  outline: 0; }
+
 #header {
   background: #f1f1f1; }
   #header h1 {
@@ -20,12 +25,37 @@ table {
 #content {
   padding: 50px 0 50px 0; }
 
+#secondary {
+  margin: 30px 0 0 0;
+  display: inline-flex; }
+
+.driver-status {
+  margin-left: 20px; }
+
+img.flag {
+  width: 65px;
+  height: 65px; }
+
 .form-control {
   margin: 0 0 20px 0;
   max-width: 690px;
   display: inline !important; }
 
+.result-table img {
+  margin-right: 10px; }
+
 span.icon-search {
   margin-right: 10px; }
+
+.main-content {
+  margin-top: 50px; }
+
+span.driver-name {
+  font-size: 30px;
+  display: block;
+  margin-top: 20px;
+  background: #f1f1f1;
+  padding-left: 10px;
+  font-weight: 300; }
 
 /*# sourceMappingURL=style.css.map */

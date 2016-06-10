@@ -14,13 +14,13 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
   <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
   <link rel="stylesheet" href="https://i.icomoon.io/public/temp/c476d48ccc/UntitledProject/style.css">
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/c476d48ccc/UntitledProject/style.css">
 </head>
 <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
 <body ng-app="F1FeederApp" ng-controller="driversController">
-
 
   <div id="header">
     <div class="row">
@@ -33,6 +33,19 @@
   </div>
 
   <div id="content">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <ng-view></ng-view>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>  
+
+  </div>
+<!--   <div id="content">
 
     <div class="container">
       <div class="row">
@@ -64,7 +77,7 @@
         <div class="col-md-2"></div>
       </div>
     </div>
-  </div>
+  </div> -->
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="js/app.js"></script>
