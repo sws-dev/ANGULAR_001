@@ -46,39 +46,7 @@
     </div>  
 
   </div>
-<!--   <div id="content">
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <span class="icon-search"></span><input class="form-control" type="text" ng-model="nameFilter" placeholder="Search..."/>
-          <div class="table-responsive">
-            <table>
-              <tbody>
-                <tr>
-                  <th>position</th>
-                  <th>driver</th>
-                  <th>car</th>
-                  <th>points</th>
-                </tr>
-                <tr ng-repeat="driver in driversList | filter: searchFilter">
-                  <td>{{$index + 1}}</td>
-                  <td>
-                    <img src="img/flags/{{driver.Driver.nationality}}.png" />
-                    {{driver.Driver.givenName}}&nbsp;{{driver.Driver.familyName}}
-                  </td>
-                  <td>{{driver.Constructors[0].name}}</td>
-                  <td>{{driver.points}}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
-  </div> -->
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/angular-route/angular-route.js"></script>
   <script src="js/app.js"></script>
