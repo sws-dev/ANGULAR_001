@@ -1,0 +1,31 @@
+@-moz-document url-prefix() {
+  fieldset {
+    display: table-cell; } }
+table {
+  width: 100%; }
+  table h2 {
+    padding: 0 0 10px 0;
+    margin-bottom: 0; }
+  table td {
+    padding: 0 0 10px 0; }
+  table th {
+    padding: 0 0 15px 0;
+    text-transform: uppercase; }
+
+#header {
+  background: #f1f1f1; }
+  #header h1 {
+    margin-bottom: 20px; }
+
+#content {
+  padding: 50px 0 50px 0; }
+
+.form-control {
+  margin: 0 0 20px 0;
+  max-width: 690px;
+  display: inline !important; }
+
+span.icon-search {
+  margin-right: 10px; }
+
+/*# sourceMappingURL=style.css.map */
