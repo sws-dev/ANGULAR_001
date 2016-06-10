@@ -1,0 +1,33 @@
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+table {
+	width: 100%;
+
+	h2 {
+		padding: 0 0 10px 0;
+		margin-bottom: 0;
+	}
+
+	td {
+		padding: 0 0 10px 0;
+	}
+
+	th {
+		padding: 0 0 15px 0;
+		text-transform: uppercase;
+	}
+}
+
+#header {
+	background: #f1f1f1;
+
+	h1 {
+		margin-bottom: 20px;
+	}
+}
+
+#content {
+	padding: 50px 0 50px 0;
+}
