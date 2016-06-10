@@ -12,6 +12,9 @@ table {
     padding: 0 0 15px 0;
     text-transform: uppercase; }
 
+.table-responsive {
+  border: none !important; }
+
 a:hover, a:active {
   opacity: 0.7;
   text-decoration: none !important;
@@ -36,16 +39,12 @@ img.flag {
   width: 65px;
   height: 65px; }
 
-.form-control {
-  margin: 0 0 20px 0;
-  max-width: 690px;
-  display: inline !important; }
-
-.result-table img {
+.result-table img, .table-responsive img {
   margin-right: 10px; }
 
 span.icon-search {
-  margin-right: 10px; }
+  margin-right: 10px;
+  font-size: 30px; }
 
 .main-content {
   margin-top: 50px; }
@@ -57,5 +56,10 @@ span.driver-name {
   background: #f1f1f1;
   padding-left: 10px;
   font-weight: 300; }
+
+#bootstrap-overrides .form-control {
+  margin: 0 0 20px 0;
+  max-width: 690px;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,8 @@
 
-<span class="icon-search"></span><input class="form-control" type="text" ng-model="nameFilter" placeholder="Search..."/>
+<div class="form-inline">
+  <span class="icon-search"></span>
+  <input class="form-control" type="text" ng-model="nameFilter" placeholder="Search..."/>
+</div>
 <div class="table-responsive">
   <table>
     <tr ng-repeat="driver in driversList | filter: searchFilter">

@@ -20,6 +20,10 @@ table {
 	}
 }
 
+.table-responsive {
+	border: none!important;
+}
+
 a {	
 
 	&:hover, &:active {
@@ -55,14 +59,7 @@ img.flag {
 	height: 65px;
 }
 
-.form-control {
-	margin: 0 0 20px 0; 
-	max-width: 690px;
-	display: inline!important;
-
-}
-
-.result-table {
+.result-table, .table-responsive {
 	img {
 		margin-right: 10px;
 	}
@@ -70,6 +67,7 @@ img.flag {
 
 span.icon-search {
 	margin-right:10px;
+	font-size: 30px;
 }
 
 .main-content {
@@ -85,3 +83,15 @@ span.driver-name {
 	font-weight: 300;
 }
 
+
+//bootstrap overides 
+
+#bootstrap-overrides{
+
+	.form-control {
+		margin: 0 0 20px 0; 
+		max-width: 690px;
+		width: 100%;
+	}
+
+}
